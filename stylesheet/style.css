@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    max-width: 2440px;   
+}
+:root{
+    --primary:#3687ea;
+    --secondary:#ea9936;
+    --tertiary:#f6d4a9;
+    --black:#000000;
+} 
+
+.active, .accent{
+    color: var(--secondary);
+    font-size: 20px;
+}
+.active{
+    border-bottom: 2px solid var(--primary);
+}
+
+.col-50{
+    margin-top: 50px;
+}
+.col-25{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid black;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1rem 3rem;
+}
+
+.btn{
+    text-align: center;
+    padding: 15px 20px;
+    border-radius:20px ;
+    border: var(--secondary) 1px solid;
+    cursor: pointer;
+}
+
+.btn-primary{
+    border: var(--primary);
+}
+.btn-primary:hover{
+    background-color: var(--primary);
+}
+
+.btn-secondary{
+    border: var(--primary);
+}
+
+.btn-tertiary{
+    border: var(--primary);
+}
+
+.wrapper img{
+    max-width: 70%;
+}
+.section-1{
+    flex-direction: row-reverse;
+}
+.section-2{
+    flex-direction: row;
+}
+
+.black{
+    background-color: hsla(0, 0%, 0%, 0.945);
+    color:var(--tertiary)
+}
+#cont
+#contact{
+    border: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+}
+nav{
+    align-items: center;
+    display: flex;
+    padding:0.625rem 3rem;
+    color: var(--white);
+    position: relative;
+}
+nav ul{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+nav ul li{
+    margin: 0px 10px;
+    text-transform: uppercase;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--white)
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: var(--secondary);
+    font-size: 20px;
+    transition-duration: 1000ms;
+}
+nav ul li.btn:hover{
+    transition-duration: 500ms;
+    background-color: var(--secondary);
+    color: white;
+}
+header{
+    justify-content:space-around;
+    background-color:var(--black);
+    color: var(--tertiary);
+}
+header h1{
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+section{
+    text-align: center;
+}
+.header{
+    align-items: center;
+    height: 80vh;
+}
+.banner-image{
+    background-image: url(../images/bg-img/washing-hands.jpg);
+    background-color:var(--tertiary);
+    background-blend-mode:multiply;
+    min-width:50%;
+    height: 100%;
+    background-size: cover;
+}
+.flex-1{
+    flex: 1;
+    padding: 25px;
+}
+.flex-2{
+    flex:1.5;
+    padding: 25px;
+    margin: 0px 20;
+}
+.flex-3{
+    flex:3;
+    padding: 25px;
+    margin: 0px 20;
+    text-align:center;
+}
+#about{
+    padding-top: 100px;
+    color:var(--secondary); 
+}
+#about h1{
+    padding:50px 0;
+}
+.icon{
+    width:100%
+}
+
+#services{
+    border: 5px solid red;
+    justify-content: center;
+    align-items: center;
+}
+#services h1{
+    margin: 50px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+  /* body { */
+    /* background-color: lightblue; */
+    /* display: block; */
+  }
