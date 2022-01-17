@@ -5,8 +5,8 @@ module.exports = {
     
       colors: {
         "jux-blue": "#44509c",
-        "jux-pink": "#44509c",
-        "jux-white": "#44509c"
+        "jux-pink": "#FDDBFF",
+        "jux-white": "#FFF"
       }
     },
 
@@ -17,7 +17,13 @@ module.exports = {
 
     container:{
       center: true,
-      padding: "1rem"
+      padding: "1rem",
+      screens: {
+        lg: "max:1124px",
+        xl: "max:1124px",
+        "2xl": "1124px",
+      },
+
     }
 
   },

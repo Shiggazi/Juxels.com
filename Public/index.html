@@ -17,23 +17,62 @@
   <title>Juxels Lifestyle Photography</title>
 </head>
 
-<body>
+<body class="font-Nunito">
+  <!-- HEADER SEGMENT -->
   <header class="bg-jux-blue">
-    <nav id="navigation" class="container pt-6 flex flex-row justify-between items-center">
-      <div id="brand-logo" class="w-32">
-        <img src="../images/Assets/Brand_logo.svg" alt="">
+
+    <!-- Navigation  -->
+    <nav id="navigation" class="container flex items-center py-8 sm:py-4 ">
+      <div id="brand-logo" class="w-32"><img src="../images/Assets/Brand_logo.svg" alt=""></div>
+      <!-- Links -->
+
+      <ul class="hidden  sm:flex text-jux-pink font-semibold  flex-1 gap-12 justify-end items-center uppercase text-xs">
+        <li class="cursor-pointer">Our Works</li>
+        <li class="cursor-pointer">Services</li>
+        <li class="cursor-pointer">Contact</li>
+      </ul>
+
+      <!-- HAMBURGER-ICON -->
+      <div class="flex sm:hidden flex-1 justify-end">
+        <i class="text-2xl fa fa-bars text-jux-white"></i>
       </div>
-
-      <div class="flex " id="links"></div>
-
     </nav>
+    <!-- NAV ENDING -->
 
   </header>
-  <main>
-  </main>
+  <!-- HEADER  ENDING -->
+
+
+  <!-- HERO SECTION -->
+  <section class="bg-jux-blue">
+    <div class="container  flex flex-col-reverse sm:flex-row items-center gap-12 pt-14">
+
+      <!-- Content -->
+      <div class="flex flex-1 flex-col">
+        <!-- hero title -->
+        <h1
+          class="text-jux-pink text-2xl uppercase text-center font-Nunito-sans font-medium mb-8 sm:text-6xl sm:text-left">
+          Lifestyle <br> Photography
+        </h1>
+        <p class="text-jux-white text-center text-lg md:text-left mb-6">Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Minus possimus itaque neque ipsa cum, recusandae vitae quae. Maxime aliquam vero quaerat
+          porro perferendis earum fugit et alias! Cupiditate, itaque dolores?</p>
+      </div>
+      <div class="flex justify-center flex-wrap gap-6">
+        <button class="btn text-white hover:text-yellow-50 hover:bg-jux-blue hover:border-jux-blue">
+
+        </button>
+      </div>
+
+
+
+    </div>
+
+    <!-- HERO IMAGE -->
+  </section>
   <footer>
   </footer>
-  <script src="scripts.js"></script>
+  <script src="./Js/script.js"></script>
 </body>
 
 </html>
