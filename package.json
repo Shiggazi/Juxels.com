@@ -1,0 +1,24 @@
+{
+  "name": "juxels.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./public/stylesheet/style.css --watch",
+    "prod": "npx tailwindcss -i ./src/input.css -o ./public/stylesheet/style.css --min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shiggazi/Juxels.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shiggazi/Juxels.com/issues"
+  },
+  "homepage": "https://github.com/Shiggazi/Juxels.com#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.15"
+  }
+}
