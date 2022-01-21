@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/input.css -o ./public/stylesheet/style.css --watch",
-    "prod": "npx tailwindcss -i ./src/input.css -o ./public/stylesheet/style.css --min"
+    "dev": "npx tailwindcss -i ./src/input.css -o ./docs/stylesheet/style.css --watch",
+    "prod": "npx tailwindcss -i ./src/input.css -o ./docs/stylesheet/style.css --min"
   },
   "repository": {
     "type": "git",
