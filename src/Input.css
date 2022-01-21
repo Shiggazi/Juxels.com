@@ -7,6 +7,6 @@
 @layer components{
 
   .btn-primary {
-    @apply py-2 px-6 rounded-2xl transition duration-300 border-4 border-jux-yellow ;
+    @apply py-2 px-6 rounded-2xl transition duration-300 border-2 border-jux-yellow ;
   }
 }

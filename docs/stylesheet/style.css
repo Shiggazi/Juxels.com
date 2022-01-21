@@ -490,7 +490,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .btn-primary {
   border-radius: 1rem;
-  border-width: 4px;
+  border-width: 2px;
   --tw-border-opacity: 1;
   border-color: rgb(246 224 73 / var(--tw-border-opacity));
   padding-top: 0.5rem;
@@ -524,8 +524,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 20rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-2\/5 {
+  height: 40%;
+}
+
+.max-h-60 {
+  max-height: 15rem;
+}
+
+.max-h-6 {
+  max-height: 1.5rem;
+}
+
 .w-32 {
   width: 8rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-1 {
@@ -672,8 +692,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: none;
   }
 
+  .sm\:h-full {
+    height: 100%;
+  }
+
   .sm\:h-3\/4 {
     height: 75%;
+  }
+
+  .sm\:h-2\/4 {
+    height: 50%;
+  }
+
+  .sm\:h-1\/4 {
+    height: 25%;
   }
 
   .sm\:w-full {
@@ -711,5 +743,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 768px) {
   .md\:text-left {
     text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:h-full {
+    height: 100%;
   }
 }
