@@ -6,7 +6,8 @@ module.exports = {
       colors: {
         "jux-blue": "#44509c",
         "jux-pink": "#FDDBFF",
-        "jux-white": "#FFF"
+        "jux-white": "#FFF",
+        "jux-yellow":"#F6E049"
       }
     },
 
