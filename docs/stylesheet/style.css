@@ -638,6 +638,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.5rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .bg-jux-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(68 80 156 / var(--tw-bg-opacity));
